@@ -10,7 +10,13 @@ a {
 ul {
   list-style-type: none;
 }
+.container {
+  width: 1440px;
+  margin: 0 auto;
 
+  outline: 2px solid red;
+}
+/*#region header*/
 .logo {
   color: #4D5AE5;
   font-family: Raleway, sans-serif;
@@ -28,7 +34,7 @@ ul {
   color: #F4F4FD;
   letter-spacing: 0.03em;
 }
-/*region header*/
+
 .menu {
   color: #2e2f42;
   font-weight: 500;
@@ -56,7 +62,9 @@ ul {
 .contacts:focus {
   color: #404bbf;
 }
-/*endregion header*/
+/*#endregion header*/
+
+/*#region hero*/
 .hero{
   background-color: #2e2f42;
 }
@@ -66,6 +74,10 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin: 0 auto;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -75,6 +87,9 @@ ul {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
+  width: 169px;
+  height: 59px;
+
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -82,9 +97,12 @@ ul {
 .hero-button:focus{
   background-color: #404bbf;
 }
+/*#endregion hero*/
 
-/*region features*/
-
+/*#region features*/
+.features{
+  
+}
 .features-caption {
   font-weight: 500;
   font-size: 20px;
@@ -99,8 +117,19 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*endregion features*/
-/*region team*/
+.features-list {
+  display: flex;
+}
+.features-caption {
+  margin-bottom: 8px;
+}
+.features-item {
+  width: 264px;
+  margin-right: 24px;
+}
+/*#endregion features*/
+
+/*#region team*/
 .team {
   background-color: #f4f4fd;
 }
@@ -132,9 +161,9 @@ ul {
   color: #434455;
   text-align: center;
 }
-/*endregion team*/
+/*#endregion team*/
 
-/*region portfolio*/
+/*#region portfolio*/
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -157,9 +186,9 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
  }
-/*endregion portfolio*/
+/*#endregion portfolio*/
 
-/*region footer*/
+/*#region footer*/
 footer {
   background-color: #2E2F42;
 }
@@ -170,4 +199,4 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-/*endregion footer*/
+/*#endregion footer*/
