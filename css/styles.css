@@ -144,8 +144,7 @@ padding-bottom: 188px;
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  /* width: 169px;
-  height: 59px; */
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
 
@@ -222,7 +221,8 @@ padding-bottom: 188px;
 }
 .team-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
+  /* justify-content: space-between; */
 
 }
 .team-item {
@@ -288,6 +288,7 @@ width: calc((100% - 48px) / 3);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  margin-bottom: 8px;
 }
 .portfolio-description {
   font-weight: 400;
@@ -312,6 +313,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  
+  width: 264px;
+  margin-top: 16px;
 }
 /*#endregion footer*/
